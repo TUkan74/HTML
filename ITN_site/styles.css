@@ -1,0 +1,101 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+h1 {
+font-size: 3em;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+h2 {
+font-size: 2em;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+h3 {
+font-size: 1.5em;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+
+#header {
+background-color: #333;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+.nav-item {
+display: inline-block;
+margin-right: 10px;
+}
+
+nav a:hover,
+.highlight {
+color: #999;
+}
+
+
+tr:nth-child(even):hover {
+background-color: #ddd;
+}
+  
+article {
+background-color: #f4f4f4;
+padding: 20px;
+margin-bottom: 20px;
+max-width: 800px;
+}
+
+title {
+font-size: 1.5em;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+p {
+font-size: 1em;
+line-height: 1.5;
+margin-bottom: 10px;
+}
+table {
+border-collapse: collapse;
+width: 50%;
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: left;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+a[target="_blank"] {
+color: #00f;
+}
+
+.highlight {
+    color: rgba(3, 7, 247, 0.995);
+    text-align: center
+}
+
+div.fancy {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+  }
+
+p + img{
+    font-family: 'Times New Roman', Times, serif; 
+    
+}
+
+
+
